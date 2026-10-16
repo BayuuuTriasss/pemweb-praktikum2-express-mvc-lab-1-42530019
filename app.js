@@ -8,7 +8,6 @@ app.use(express.static('public'));
 
 // Express otomatis akan mencari berkas UI di dalam folder /views
 app.set('view engine', 'ejs');
-app.use(express.static('public'));
 
 // Wajib untuk menangkap form berjenis application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
